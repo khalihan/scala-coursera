@@ -1,2 +1,4 @@
-scala-coursera
-==============
+scala-lessons
+=============
+
+coursera lessons and more
