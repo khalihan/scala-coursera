@@ -1,0 +1,38 @@
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+
+# sbt specific
+bin
+out
+.history
+
+# Scala-IDE specific
+.cache
+*metadata*
+.worksheet
+*$global*
+target
+project/target
+
+# IDEA-specific
+.idea
+
+# workspace
+workspace/*/logs
+workspace/*/project/project
+workspace/*/project/target
+workspace/*/target
+workspace/*/tmp
+workspace/*/.history
+workspace/*/dist
+workspace/*/.idea
+workspace/*/*.iml
+workspace/*/out
+workspace/*/.idea_modules
+workspace/*/.classpath
+workspace/*/.project
+workspace/*/RUNNING_PID
+workspace/*/.settings
+
